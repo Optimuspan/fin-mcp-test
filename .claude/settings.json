@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python3 -c ' *)",
+      "Bash(mcp --version)",
+      "Bash(python3)",
+      "Bash(pip3 install *)"
+    ]
+  },
+  "mcpServers": {
+    "finance-hk": {
+      "command": "mcp",
+      "args": ["run", "/Users/optimus/finance-mcp/server.py"]
+    }
+  }
+}
